@@ -37,7 +37,7 @@
   }
 }
 
-#logo{
+a#logo{
   display: none !important;
 }
 #logo svg {
