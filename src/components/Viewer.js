@@ -60,10 +60,20 @@ const Viewer = () => {
                   display: none !important;
                   position: static !important;
                 }
+                #overlay {
+                  position: absolute;
+                  bottom: 10px;
+                  right: 20px;
+                  z-index: 9999; /* Make sure the overlay is on top */
+                  width: 137px; /* Adjust width and height according to your need */
+                  height: 40px;
+                  background-color: #141417;
+              }
               </style>
           </head>
           <body>
               <div id="spline-container">
+              <div id="overlay"></div> 
                   <spline-viewer url="https://prod.spline.design/vl94dGc7hBPoUhcf/scene.splinecode"></spline-viewer>
               </div>
           </body>
