@@ -1,6 +1,6 @@
 import React from 'react'
 import Viewer from './Viewer'
-// import VRrooms from './components/VRrooms'
+import VRrooms from './VRrooms'
 import '../App.css'
 import C2 from './C2'
 
@@ -10,7 +10,7 @@ const Home = () => {
       <div className="ct-1">
         <Viewer/>
       </div>
-      {/* <VRrooms/> */}
+      <VRrooms/>
       <C2/>
       {/* <div>
       <Card border="border-left-behind" shadowUrl="shadow(style='--url: url('https://i.ibb.co/PM4ghD4/full.png')" backgroundUrl="https://i.ibb.co/JpJVJxq/Background.png" cutoutUrl="https://i.ibb.co/Dw3q3tZ/cutout.png" />
