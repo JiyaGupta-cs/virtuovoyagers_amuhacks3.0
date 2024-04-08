@@ -2,7 +2,9 @@ import React from 'react'
 import Viewer from './Viewer'
 import VRrooms from './VRrooms'
 import '../App.css'
-import C2 from './C2'
+import './styles.css';
+// import C2 from './C2'
+import SkillsAssessment from './SkillsAssessment'
 
 const Home = () => {
   return (
@@ -11,7 +13,8 @@ const Home = () => {
         <Viewer/>
       </div>
       <VRrooms/>
-      <C2/>
+      <SkillsAssessment/>
+      {/* <C2/> */}
       {/* <div>
       <Card border="border-left-behind" shadowUrl="shadow(style='--url: url('https://i.ibb.co/PM4ghD4/full.png')" backgroundUrl="https://i.ibb.co/JpJVJxq/Background.png" cutoutUrl="https://i.ibb.co/Dw3q3tZ/cutout.png" />
       <Card border='border-right-behind border-bottom-behind' shadowUrl='shadow(style="--url: url("https://i.ibb.co/DC0MbxS/m-full.png")' backgroundUrl='https://i.ibb.co/ZdGBm4K/m-background.png' cutoutUrl='https://i.ibb.co/RC70XmC/m-cutout.png' />

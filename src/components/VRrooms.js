@@ -6,8 +6,8 @@ import interview from './assets/interview.jpeg'
 
 const VRrooms = () => {
   return (
-    <div className='vr-rooms flex-col  flex bg-black'>
-      <div className="wrapper">
+    <div className='vr-rooms flex-col  flex bg-black pt-8 '>
+      <div className="wrapper pb-6">
   <div className="top">VR Rooms</div>
   <div className="bottom" aria-hidden="true">VR Rooms</div>
 </div>

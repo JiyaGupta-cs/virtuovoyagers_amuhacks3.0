@@ -26,7 +26,7 @@ const ArcCard = ({ name, title, umi }) => {
     const handleMouseLeave = () => {
         boundingRef.current = null;
     };
-// const umi='https://virtualspeech.com/wp-content/uploads/chatgpt-powered-conversation-ai-1.jpg';
+    // const umi='https://virtualspeech.com/wp-content/uploads/chatgpt-powered-conversation-ai-1.jpg';
     return (
         <div className="flex flex-col" style={{ perspective: "800px" }}>
             <div
@@ -35,18 +35,9 @@ const ArcCard = ({ name, title, umi }) => {
                 onMouseMove={handleMouseMove}
                 className="group relative grid w-[430px] grid-rows-[242px_120px] rounded-md bg-[#FFFEEC] p-2 text-[#582a81] transition-transform ease-out hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)]"
             >
-                <figure className={`rounded-md mix-blend-multiply`} style={{ 
-  backgroundImage: ` url(${umi}) `, backgroundSize: "410px 240px"
-}} />
-
-       
-                
-       
-                
-                
-
-
-
+                <figure className={`rounded-md mix-blend-multiply`} style={{
+                    backgroundImage: ` url(${umi}) `, backgroundSize: "410px 240px"
+                }} />
                 <div className="pt-4 p-2">
                     <p className="text-3xl font-bold">{name}</p>
                     <p className="text-base font-[500] ">{title}</p>
