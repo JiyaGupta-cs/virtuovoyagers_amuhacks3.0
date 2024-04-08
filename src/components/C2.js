@@ -57,9 +57,9 @@ const C2 = () => {
 
   return (
     <div className='c2'>
-      <section class="wrapper">
-  <div class="top">Showdown</div>
-  <div class="bottom" aria-hidden="true">showdown</div>
+      <section className="wrapper">
+  <div className="top">Showdown</div>
+  <div className="bottom" aria-hidden="true">showdown</div>
 </section>
       <div className="centered" >
         
@@ -71,18 +71,18 @@ const C2 = () => {
             <p className='bolder'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
-        <div class="card border-right-behind border-left-behind border-bottom-behind shadow" style={{ backgroundImage: "url('https://png.pngtree.com/png-clipart/20190603/original/pngtree-office-meeting-png-image_730259.jpg')"}}>
-        <div class="image background" style={{ backgroundImage: "url('https://i.ibb.co/ZdGBm4K/m-background.png')"}}></div>
-        <div class="image cutout" style={{ backgroundImage: `url(${Meet})` }}></div>
-        <div class="content">
+        <div className="card border-right-behind border-left-behind border-bottom-behind shadow" style={{ backgroundImage: "url('https://png.pngtree.com/png-clipart/20190603/original/pngtree-office-meeting-png-image_730259.jpg')"}}>
+        <div className="image background" style={{ backgroundImage: "url('https://i.ibb.co/ZdGBm4K/m-background.png')"}}></div>
+        <div className="image cutout" style={{ backgroundImage: `url(${Meet})` }}></div>
+        <div className="content">
             <h2>lorem ipsummmm!</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </div>
-    <div class="card border-left-behind shadow" style={{ backgroundImage: "url('https://i.ibb.co/gSBp82C/b-full.png')"}}>
-        <div class="image background" style={{ backgroundImage: "url('https://i.ibb.co/MDBcyMW/b-background.png')"}}></div>
-        <div class="image cutout" style={{ backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/020/995/173/original/3d-blank-bar-graph-template-bar-chart-mock-up-data-analysis-colorful-statistic-bar-chart-with-a-arrow-up-3d-illustration-free-png.png')"}}></div>
-        <div class="content">
+    <div className="card border-left-behind shadow" style={{ backgroundImage: "url('https://i.ibb.co/gSBp82C/b-full.png')"}}>
+        <div className="image background" style={{ backgroundImage: "url('https://i.ibb.co/MDBcyMW/b-background.png')"}}></div>
+        <div className="image cutout" style={{ backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/020/995/173/original/3d-blank-bar-graph-template-bar-chart-mock-up-data-analysis-colorful-statistic-bar-chart-with-a-arrow-up-3d-illustration-free-png.png')"}}></div>
+        <div className="content">
             <h2>lorem ipsummmm!</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>

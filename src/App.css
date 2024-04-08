@@ -36,32 +36,6 @@
     transform: rotate(360deg);
   }
 }
-
-a#logo{
-  display: none !important;
-}
-#logo svg {
-  display: none !important;
-  margin-right: 2px;
-}
-.vr-rooms{
-  /* display: none; */
-  background-color: red;
-}
-/* Ensure that the logo is hidden even if it has inline styles */
-#logo,
-#logo svg {
-  display: none !important;
-}
-
-/* Add more specificity to override other styles */
-.App #logo,
-.App #logo svg {
-  display: none !important;
-}
-#logo {
-  display: none !important;
-}
 #spline-container{
   display: none !important;
 }
